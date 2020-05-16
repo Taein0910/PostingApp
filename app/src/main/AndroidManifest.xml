@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.recipeapp">
+    package="com.icecream.recipeapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -13,13 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".UpdateRecipeActivity"></activity>
+        <activity android:name="com.icecream.recipeapp.UpdateRecipeActivity"></activity>
         <activity
-            android:name=".Upload_Recipe"
+            android:name="com.icecream.recipeapp.Upload_Recipe"
             android:windowSoftInputMode="stateHidden" />
-        <activity android:name=".DetailActivity" />
+        <activity android:name="com.icecream.recipeapp.DetailActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.icecream.recipeapp.MainActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

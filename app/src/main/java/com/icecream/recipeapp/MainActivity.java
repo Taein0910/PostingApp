@@ -1,18 +1,15 @@
-package com.example.recipeapp;
+package com.icecream.recipeapp;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
+import android.widget.BaseAdapter;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,6 +18,11 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
 
         myAdapter  = new MyAdapter(MainActivity.this,myFoodList);
         mRecyclerView.setAdapter(myAdapter);
-
 
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Recipe");
 

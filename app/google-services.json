@@ -1,42 +1,100 @@
 {
   "project_info": {
-    "project_number": "212281396864",
-    "firebase_url": "https://fir-project-c6cd7.firebaseio.com",
-    "project_id": "fir-project-c6cd7",
-    "storage_bucket": "fir-project-c6cd7.appspot.com"
+    "project_number": "579329445671",
+    "firebase_url": "https://androidlearnapp-c40e6.firebaseio.com",
+    "project_id": "androidlearnapp-c40e6",
+    "storage_bucket": "androidlearnapp-c40e6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:212281396864:android:224d8152642cde27",
+        "mobilesdk_app_id": "1:579329445671:android:a50b0c78a173837ee2a302",
         "android_client_info": {
           "package_name": "com.example.recipeapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "212281396864-9eks1t2reeu0q2e1tj7ve3th6a7r1c0r.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.recipeapp",
-            "certificate_hash": "54f2463544dc66d8da55def197bdb5c73817bdf1"
-          }
-        },
-        {
-          "client_id": "212281396864-mf7lk43pueqlhogufqha1g97jhkdhag8.apps.googleusercontent.com",
+          "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCi7HADFS445Xgf9fLIZckq6926Vsi8koA"
+          "current_key": "AIzaSyBOF-9tpZ4gwC5E0_He64lToAto7D277t4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "212281396864-mf7lk43pueqlhogufqha1g97jhkdhag8.apps.googleusercontent.com",
+              "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579329445671:android:6f1dab2ca4008cebe2a302",
+        "android_client_info": {
+          "package_name": "com.icecream.androidlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579329445671-fkmtqkstpn0u2s4m24eolh2dmtmr1n2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icecream.androidlearn",
+            "certificate_hash": "e84b36d515139f58e4df5bb6d18c8985bab8a11d"
+          }
+        },
+        {
+          "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOF-9tpZ4gwC5E0_He64lToAto7D277t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579329445671:android:34df7e751e626a1ce2a302",
+        "android_client_info": {
+          "package_name": "com.icecream.recipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOF-9tpZ4gwC5E0_He64lToAto7D277t4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579329445671-r4vmack0ia17lbnbdkhci7nrp1lgutak.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
