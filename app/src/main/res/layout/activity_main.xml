@@ -10,7 +10,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Search"
+        android:hint="검색"
         android:textSize="22sp"
         android:id="@+id/txt_searchtext"
         android:layout_margin="15dp"
@@ -31,9 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="40dp"
+        android:layout_margin="20dp"
         android:backgroundTint="@color/colorAccent"
-        android:src="@drawable/ic_file_upload_black_24dp"
+        android:src="@drawable/ic_add_black_24dp"
         android:onClick="btn_uploadActivity"
+        android:visibility="gone"
         />
 </RelativeLayout>

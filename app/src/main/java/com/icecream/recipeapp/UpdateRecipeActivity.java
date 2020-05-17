@@ -28,7 +28,7 @@ public class UpdateRecipeActivity extends AppCompatActivity {
 
     ImageView recipeImage;
     Uri uri;
-    EditText txt_name,txt_description,txt_price;
+    EditText txt_name,txt_description,txt_price, txt_code;
     String imageUrl;
     String key,oldImageUrl;
     DatabaseReference databaseReference;

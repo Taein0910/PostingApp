@@ -3,6 +3,7 @@ package com.icecream.recipeapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +23,7 @@ public class DetailActivity extends AppCompatActivity {
     ImageView foodImage;
     String key="";
     String imageUrl="";
+    WebView wv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +31,14 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         RecipeName = (TextView) findViewById(R.id.txtRecipeName);
         RecipePrice = (TextView) findViewById(R.id.txtPrice);
-        foodDescription = (TextView)findViewById(R.id.txtDescription);
         foodImage = (ImageView)findViewById(R.id.ivImage2);
+        wv = (WebView) findViewById(R.id.wv);
 
         Bundle mBundle = getIntent().getExtras();
 
         if(mBundle!=null){
 
-            foodDescription.setText(mBundle.getString("Description"));
+            wv.loadUrl(mBundle.getString("Description"));
             key = mBundle.getString("keyValue");
             imageUrl = mBundle.getString("Image");
             RecipeName.setText(mBundle.getString("RecipeName"));

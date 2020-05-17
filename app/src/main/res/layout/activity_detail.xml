@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".DetailActivity">
+    tools:context=".DetailActivity"
+    android:backgroundTint="#ffffff">
 
     <ImageView
         android:layout_width="match_parent"
@@ -24,14 +29,14 @@
         android:textStyle="bold"
         android:id="@+id/txtRecipeName"
         />
-    <TextView
+
+    <WebView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="20dp"
-        android:text="Description"
-        android:textSize="22sp"
-        android:id="@+id/txtDescription"
-        />
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/wv"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,15 +44,19 @@
         android:paddingRight="20dp"
         android:paddingTop="10dp"
         android:text="Price"
+        android:layout_marginBottom="20dp"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="27sp"
         android:textStyle="bold|italic"
         android:gravity="end"
         android:id="@+id/txtPrice"
         />
+
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:visibility="gone">
         <Button
             android:id="@+id/btnUpdate"
             android:layout_width="120dp"
@@ -76,5 +85,6 @@
 
     </RelativeLayout>
 
-
 </LinearLayout>
+</ScrollView>
+

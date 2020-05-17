@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         txt_Search = (EditText)findViewById(R.id.txt_searchtext);
 
         progressDialog = new ProgressDialog(this);
-        progressDialog.setMessage("Loading Items ....");
+        progressDialog.setMessage("글을 불러오는 중...");
 
 
         myFoodList = new ArrayList<>();
