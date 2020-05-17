@@ -14,7 +14,6 @@
         android:textSize="22sp"
         android:id="@+id/txt_searchtext"
         android:layout_margin="15dp"
-
         />
 
     <androidx.recyclerview.widget.RecyclerView
